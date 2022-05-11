@@ -1,8 +1,8 @@
 # IDS-on-HIKARI-2021
 
-This project uses machine learning techniques for intrusion detection on the [HIKARI-2021] dataset  [[1]](#Ferriyan). This is the state-of-the-art network detection dataset, however the experimentation setup followed by the authors [[1]](#Ferriyan) to evaluate the detection performance is flawed. This limitation is similar to what [[2]](#Islam) found in prior works when implementing NIDS systems using machine learning models.
+This project uses machine learning techniques for intrusion detection on the **HIKARI-2021** dataset  [[1]](#Ferriyan). This is the **state-of-the-art network detection dataset**, however the experimentation setup followed by the authors [[1]](#Ferriyan) to evaluate the detection performance is flawed. This limitation is similar to what [[2]](#Islam) found in prior works when implementing NIDS systems using machine learning models.
 
-This work focuses on addressing those limitations and follow standard practices to improve the existing results. Our experiments show that our selected LGBMClassifier can significantly outperform the state-of-the-art model and is more usable in practice.
+In this work we address those limitations and follow standard practices to improve the existing results. Our experiments show that the finally selected LGBMClassifier can significantly outperform the state-of-the-art model in terms of f1-score, precision, recall and is more usable for deployment in practice.
 
 ## Dataset
 
